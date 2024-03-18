@@ -1,0 +1,92 @@
+.gallery1 img{
+    width: 90%;
+}
+
+.gallery2 img{
+    width: 90%;
+}
+
+body{
+    background-color: dimgray;
+}
+
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: cadetblue;
+    padding-top: 15px;
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: tahoma;
+    color: aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;   
+}
+
+#menu a:hover{
+    color: dimgray;
+}
+
+#grow:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1)
+}
+
+.gallery1{
+    display: flex;
+    position: relative;
+        left: 1.5%;
+}
+
+.gallery2{
+    display: flex;
+    position: relative;
+        left: 1.5%;
+}
+
+#about-table table{
+    border-collapse: collapse;
+    position: absolute;
+        left: %;
+    text-align: center;
+    color: aliceblue;
+    font-family: tahoma;
+    border: 5px solid #BBBBBB;
+    width: 99%;
+    height: 65%;
+}
+
+#contact-table table{
+    border-collapse: collapse;
+    position: absolute;
+        left: %;
+    text-align: left;
+    color: aliceblue;
+    font-family: tahoma;
+    border: 5px solid #BBBBBB;
+    width: 30%;
+    height: 20%;
+}
+
+#contact-table img{
+    position: relative;
+        top: 2px;
+}
+
+tr{
+    font-size: 1.3rem;
+}
+
+#logo{
+    width: 33.3333%;
+    position: relative;
+        left: 33.3333%;
+}
+
+#logo img{
+    width: 100%;
+}
